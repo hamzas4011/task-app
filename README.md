@@ -7,7 +7,7 @@ Oppgaven viser forståelse for **autentisering, state-håndtering (Pinia), API-i
 
 ---
 
-## ⚙️ Installasjon og bygging
+# ⚙️ Installasjon og bygging
 
 ```bash
 # 1. Klon prosjektet
@@ -26,8 +26,8 @@ npx tailwindcss init -p
 # 5. Kjør lokalt
 npm run dev
 ```
-```
-## 💡 Hvordan oppgaven ble løst
+---
+# 💡 Hvordan oppgaven ble løst
 
 Applikasjonen er bygget som en **Single Page Application (SPA)** som kommuniserer med REST-API-et på  
 🔗 `https://taskapi.app01.transportsys.no`.
@@ -53,7 +53,7 @@ Applikasjonen er delt inn i tydelige komponenter for lesbarhet og gjenbruk:
 
 ---
 
-## 🧠 Antagelser og valg av verktøy
+# 🧠 Antagelser og valg av verktøy
 
 **Antagelser**
 - API-et krever `Authorization: Bearer <token>` for alle kall  
@@ -70,7 +70,7 @@ Applikasjonen er delt inn i tydelige komponenter for lesbarhet og gjenbruk:
 
 ---
 
-## 💭 Forbedringsidéer
+# 💭 Forbedringsidéer
 
 - **Automatisk token-refresh:** Implementere en funksjon som fornyer access-tokenet automatisk når det utløper (401-feil), slik at brukeren slipper å logge inn på nytt.  
 
